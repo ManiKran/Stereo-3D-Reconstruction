@@ -12,11 +12,12 @@ cfg                                         = __C
 #
 __C.DATASETS                                = edict()
 __C.DATASETS.SHAPENET                       = edict()
+__C.DATASETS.SHAPENET.LEFT_RENDERING_PATH   = '/path/to/ShapeNetStereoRendering/%s/%s/render_%02d_l.png'
+__C.DATASETS.SHAPENET.RIGHT_RENDERING_PATH  = '/path/to/ShapeNetStereoRendering/%s/%s/render_%02d_r.png'
+__C.DATASETS.SHAPENET.LEFT_DISP_PATH        = '/path/to/ShapeNetStereoRendering/%s/%s/disp_%02d_l.exr'
+__C.DATASETS.SHAPENET.RIGHT_DISP_PATH       = '/path/to/ShapeNetStereoRendering/%s/%s/disp_%02d_r.exr'
+__C.DATASETS.SHAPENET.VOLUME_PATH           = '/path/to/ShapeNetVox32/%s/%s.mat'
 __C.DATASETS.SHAPENET.TAXONOMY_FILE_PATH    = './datasets/ShapeNet.json'
-__C.DATASETS.SHAPENET.LEFT_RENDERING_PATH   = '/home/hzxie/Datasets/ShapeNet/ShapeNetStereoRendering/%s/%s/render_%02d_l.png'
-__C.DATASETS.SHAPENET.RIGHT_RENDERING_PATH  = '/home/hzxie/Datasets/ShapeNet/ShapeNetStereoRendering/%s/%s/render_%02d_r.png'
-__C.DATASETS.SHAPENET.LEFT_DISP_PATH        = '/home/hzxie/Datasets/ShapeNet/ShapeNetStereoRendering/%s/%s/disp_%02d_l.exr'
-__C.DATASETS.SHAPENET.RIGHT_DISP_PATH       = '/home/hzxie/Datasets/ShapeNet/ShapeNetStereoRendering/%s/%s/disp_%02d_r.exr'
 __C.DATASETS.SHAPENET.PT_CLOUD_PATH         = '/home/hzxie/Datasets/ShapeNet/ShapeNetPoints/%s/%s.npy'
 
 #
